@@ -37,6 +37,11 @@
         ?>
         <h4>Testo "censurato": <?php echo $parolaCensurata . '<br/> La lunghezza della stringa è: '.strlen($mioTesto) ?></h4>
         
+        <?php
+         $posizione = strpos($mioTesto, 'agosto');//cerca all'interno di una stringa un'altra stringa e ti torna la posizione in cui si trova
+        
+        ?>
+        <h6>La posizione della parola agosto è <?php echo $posizione ?></h6>
     </main>
 </body>
 </html>
